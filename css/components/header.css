@@ -5,11 +5,13 @@ header {
 }
 
 .container {
-  background-image: url("../../assets/bg-hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://static.wixstatic.com/media/9956a7_547912c9e51543db9c586d945aa01246~mv2_d_2500_1666_s_2.jpg/v1/fill/w_700,h_587,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9956a7_547912c9e51543db9c586d945aa01246~mv2_d_2500_1666_s_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   height: 100vh;
+  width: 100%;
 }
 
 .nav-content {

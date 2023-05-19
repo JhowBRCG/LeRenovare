@@ -1,0 +1,63 @@
+.wrapper-contact {
+  display: flex;
+  max-width: 1111px;
+  align-items: center;
+  gap: 6.1rem;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .wrapper-contact {
+    flex-direction: column;
+  }
+}
+
+.contact-article {
+  max-width: 540px;
+}
+
+.contact-article p {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3rem;
+  color: white;
+  margin: 2.4rem 0rem 5.6rem;
+}
+
+.contact-article .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 533px) {
+  .contact-article .buttons {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.contact-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem 1.4rem;
+  background: var(--green-color);
+  gap: 0.9rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.contact-button:hover {
+  filter: brightness(0.9);
+}
+
+.instagram {
+  background: var(--linear);
+}
+
+iframe {
+  outline: 5px solid var(--second-color);
+  width: 100%;
+}

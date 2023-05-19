@@ -1,0 +1,26 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  align-items: center;
+  padding-top: 180px;
+  padding-bottom: 269px;
+  flex: 1;
+}
+
+.hero h1,
+h2 {
+  font-family: "Great Vibes", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.6rem;
+  text-transform: capitalize;
+  color: white;
+}
+
+@media (max-width: 466px) {
+  .hero h1,
+  h2 {
+    font-size: 7.6rem;
+  }
+}

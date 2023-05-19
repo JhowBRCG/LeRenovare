@@ -1,0 +1,54 @@
+footer {
+  background: var(--second-color);
+  padding: 129px 1rem;
+  position: relative;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assets/logo.svg");
+  background-repeat: no-repeat;
+  width: 142px;
+  height: 142px;
+  bottom: 0px;
+}
+
+.footer-wrapper {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  margin: auto;
+}
+
+ul li {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #ffffff;
+  z-index: 3;
+}
+
+@media (max-width: 456px) {
+  ul li {
+    font-size: 1.5rem;
+  }
+}
+
+footer h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
+
+footer ul li {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

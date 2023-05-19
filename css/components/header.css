@@ -1,0 +1,86 @@
+header {
+  padding-top: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container {
+  background-image: url("../../assets/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+
+.nav-content {
+  display: flex;
+  max-width: 826px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: var(--primary-color);
+  border-radius: 100px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.3rem;
+}
+
+@media (max-width: 594px) {
+  nav ul {
+    gap: 1rem;
+  }
+}
+
+.logo {
+  width: 100%;
+}
+
+.action {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: var(--second-color);
+  text-transform: capitalize;
+  position: relative;
+}
+
+@media (max-width: 500px) {
+  .action {
+    font-size: 98%;
+  }
+}
+
+.action:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0%;
+  height: 3px;
+  background: var(--second-color);
+  bottom: -5px;
+  transition: 500ms;
+}
+
+.action:hover.action:before {
+  width: 100%;
+}
+
+.whats {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  padding: 1.5rem;
+  z-index: 1;
+  border-radius: 50%;
+  background: white;
+  border: 5px var(--second-color) solid;
+}
+
+.whats img {
+  width: 40px;
+}

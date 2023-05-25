@@ -1,3 +1,8 @@
+#contact {
+  background: rgb(235, 206, 206);
+  overflow-x: hidden;
+}
+
 .wrapper-contact {
   display: flex;
   max-width: 1111px;

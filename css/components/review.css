@@ -1,3 +1,7 @@
+#reviews {
+  overflow-x: hidden;
+}
+
 .review-wrapper {
   display: flex;
   justify-content: center;

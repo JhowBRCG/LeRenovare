@@ -2,13 +2,27 @@
   display: flex;
   max-width: 1111px;
   align-items: center;
-  gap: 6.1rem;
-  margin: auto;
+  margin: 10rem auto;
+}
+
+.wrapper-contact figure {
+  margin-left: 22rem;
+}
+
+@media (max-width: 1000px) {
+  .wrapper-contact figure {
+    margin: 0;
+  }
+}
+.wrapper-contact figure img {
+  width: 100%;
 }
 
 @media (max-width: 1000px) {
   .wrapper-contact {
     flex-direction: column;
+    align-items: center;
+    gap: 10rem;
   }
 }
 
@@ -18,10 +32,14 @@
 
 .contact-article p {
   font-weight: 400;
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 3rem;
-  color: white;
+  color: var(--white-color);
   margin: 2.4rem 0rem 5.6rem;
+}
+
+.contact-article p span {
+  color: var(--second-color);
 }
 
 .contact-article .buttons {
@@ -57,7 +75,6 @@
   background: var(--linear);
 }
 
-iframe {
-  outline: 5px solid var(--second-color);
-  width: 100%;
+.not {
+  text-transform: none;
 }

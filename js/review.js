@@ -1,32 +1,48 @@
 const reviews = [
   {
     id: 1,
-    img: "../assets/review-one.png",
+    img: "../assets/reviews/r1.png",
   },
 
   {
     id: 2,
-    img: "../assets/review-two.png",
+    img: "../assets/reviews/r2.png",
   },
 
   {
     id: 3,
-    img: "../assets/review-three.png",
+    img: "../assets/reviews/r3.png",
   },
 
   {
     id: 4,
-    img: "../assets/review-four.png",
+    img: "../assets/reviews/r4.png",
   },
 
   {
     id: 5,
-    img: "../assets/review-five.png",
+    img: "../assets/reviews/r5.png",
   },
 
   {
     id: 6,
-    img: "../assets/review-six.png",
+    img: "../assets/reviews/r6.png",
+  },
+  {
+    id: 7,
+    img: "../assets/reviews/r7.png",
+  },
+  {
+    id: 8,
+    img: "../assets/reviews/r8.png",
+  },
+  {
+    id: 9,
+    img: "../assets/reviews/r9.png",
+  },
+  {
+    id: 10,
+    img: "../assets/reviews/r10.png",
   },
 ];
 

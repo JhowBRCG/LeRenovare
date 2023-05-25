@@ -4,6 +4,14 @@
 @import url("./components/review.css");
 @import url("./components/local.css");
 @import url("./components/footer.css");
+@import url("./components/scroll.css");
+@import url("./components/prices.css");
+@import url("./components/observation.css");
+
+@font-face {
+  font-family: "lerenovare";
+  src: url("../assets/font/ClearSans-Medium.ttf");
+}
 
 * {
   box-sizing: border-box;
@@ -20,6 +28,7 @@
 
   --primary-color: #eedbdb;
   --second-color: #cf919c;
+  --white-color: #ffff;
 
   --green-color: #1fcc45;
   --linear: linear-gradient(

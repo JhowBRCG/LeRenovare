@@ -81,12 +81,12 @@ section {
   row-gap: 4rem;
 }
 
-@media (max-width: 835px) {
+@media (max-width: 1120px) {
   .card-wrapper {
     grid-template-columns: repeat(2, auto);
   }
 }
-@media (max-width: 680px) {
+@media (max-width: 740px) {
   .card-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -101,10 +101,18 @@ section {
 
 .service-card img {
   width: 343px;
-
   height: 271px;
 }
 
+@media (max-width: 740px) {
+  .service-card {
+    max-width: none;
+  }
+
+  .service-card img {
+    width: 100%;
+  }
+}
 .service-card:hover {
   transform: scale(1.05);
 }

@@ -8,11 +8,6 @@
 @import url("./components/prices.css");
 @import url("./components/observation.css");
 
-@font-face {
-  font-family: "lerenovare";
-  src: url("../assets/font/ClearSans-Medium.ttf");
-}
-
 * {
   box-sizing: border-box;
   margin: 0;

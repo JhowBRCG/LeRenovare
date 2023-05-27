@@ -13,10 +13,6 @@
   src: url("../assets/font/ClearSans-Medium.ttf");
 }
 
-html {
-  height: 100%;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;

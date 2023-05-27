@@ -3,30 +3,62 @@
 }
 
 .review-wrapper {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   padding-top: 8.8rem;
   position: relative;
 }
 
 .card-review {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  column-gap: 7.2rem;
+  max-width: 800px;
+  min-height: 343px;
+  background: var(--white-color);
   position: relative;
+  margin: auto;
+  border: 9px solid #cf919c;
+  padding: 4.5rem 1rem 8.5rem 3rem;
 }
 
-.card-review figure {
-  max-width: 600px;
-  min-height: 321px;
+.card-review .header-container {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
-.review-img {
-  width: 100%;
-  height: 321px;
-  border: 4px solid var(--second-color);
-  border-radius: 10px;
+.card-review .name {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.card-review .reviews,
+.date {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.card-review .stars-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.9rem;
+}
+
+.card-review .star {
+  color: var(--second-color);
+}
+
+.card-review .content-container {
+  margin-top: 3rem;
+}
+
+.card-review .content {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #000000;
 }
 
 .wrapper-btns {

@@ -21,7 +21,7 @@ header {
       url("../../assets/teste.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     height: 100vh;
     width: 100%;
   }
@@ -67,7 +67,7 @@ nav ul {
 
 @media (max-width: 500px) {
   .action {
-    font-size: 98%;
+    font-size: 1.8rem;
   }
 }
 

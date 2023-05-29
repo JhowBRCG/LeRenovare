@@ -9,9 +9,10 @@ header {
     url("../../assets/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
   height: 100vh;
+  width: 100%;
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
@@ -22,6 +23,8 @@ header {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
   }
 }
 

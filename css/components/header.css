@@ -17,7 +17,7 @@ header {
 @media (max-width: 425px) {
   .container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../../assets/bg-mobile.jpg");
+      url("../../assets/bg-mobile.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;

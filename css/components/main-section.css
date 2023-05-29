@@ -46,6 +46,12 @@ section {
   }
 }
 
+@media (max-width: 480px) {
+  .main-title:not(.not)::before {
+    display: none;
+  }
+}
+
 .main-title:not(.not):after {
   content: "";
   position: absolute;
@@ -70,6 +76,12 @@ section {
     width: 20px;
     height: 6px;
     right: -30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title:not(.not)::after {
+    display: none;
   }
 }
 .card-wrapper {

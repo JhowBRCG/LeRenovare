@@ -6,8 +6,14 @@ sr.reveal(".service-card", { duration: 1000 });
 sr.reveal(".obj-right", { duration: 1000 });
 sr.reveal(".obj-left", { duration: 1500 });
 
-sr.reveal("figure", {
+sr.reveal(".card-review", {
   origin: "right",
   distance: "500px",
+  duration: 1000,
+});
+
+sr.reveal(".voucher", {
+  origin: "bottom",
+  distance: "1000px",
   duration: 1000,
 });

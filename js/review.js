@@ -238,15 +238,15 @@ const reviews = [
     A Letícia é maravilhosa...super atenciosa e delicada! Super recomendo!!`,
   },
 
-  {
-    id: 26,
-    img: "../assets/reviews/img-26.png",
-    personName: "Fátima Prado",
-    avaliationTimes: "2 avaliações",
-    dateReview: "9 meses atrás",
-    contentReview:
-      "Adoro o espaço acolhedor e o preparo das pessoas que nos atendem. Sou atendida pela Letícia,que além de acolher muito bem está sempre disposta a buscar inovações e fazer a diferença no seu trabalho. Além de outras pessoas maravilhosas que compõem a equipe,como Tati,que estão sempre disposta a resolver os nossos problemas com prontidão.",
-  },
+  // {
+  //   id: 26,
+  //   img: "../assets/reviews/img-26.png",
+  //   personName: "Fátima Prado",
+  //   avaliationTimes: "2 avaliações",
+  //   dateReview: "9 meses atrás",
+  //   contentReview:
+  //     "Adoro o espaço acolhedor e o preparo das pessoas que nos atendem. Sou atendida pela Letícia,que além de acolher muito bem está sempre disposta a buscar inovações e fazer a diferença no seu trabalho. Além de outras pessoas maravilhosas que compõem a equipe,como Tati,que estão sempre disposta a resolver os nossos problemas com prontidão.",
+  // },
 
   {
     id: 27,

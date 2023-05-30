@@ -66,7 +66,6 @@ section {
   .main-title:not(.not):after {
     width: 50px;
     height: 6px;
-    right: -60px;
     top: 18px;
   }
 }
@@ -140,7 +139,8 @@ section {
 }
 
 .button {
-  display: block;
+  display: flex;
+  justify-content: center;
   background: var(--second-color);
   padding: 1rem 3.5rem;
   font-size: 2rem;
@@ -190,7 +190,7 @@ section {
 .voucher-content {
   text-align: center;
   width: fit-content;
-  margin: auto;
+  margin: 2rem auto 0;
 }
 
 .voucher-content h4 {

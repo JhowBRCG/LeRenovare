@@ -18,6 +18,13 @@
   }
 }
 
+.price-card:nth-child(1) {
+  height: fit-content;
+}
+.price-card:nth-child(2) {
+  height: fit-content;
+}
+
 .price-card {
   max-width: 340px;
   background: var(--white-color);
@@ -51,6 +58,10 @@
   font-size: 4.8rem;
   color: var(--second-color);
   text-transform: uppercase;
+}
+
+.price-card .price.lw-font {
+  font-size: 2rem;
 }
 
 .price-card .content {
